@@ -1,0 +1,41 @@
+.papier{
+    background: url("../assets/pictures/airplane.png") no-repeat;
+    background-size:contain;
+}
+.pierre{
+    background: url("../assets/pictures/rock.png") no-repeat;
+    background-size: contain;
+}
+
+.ciseaux{
+    background: url("../assets/pictures/cut-with-scissors.png") no-repeat;
+    background-size: contain;
+}
+.choix{
+    height: 30px;
+    width: 100px;
+    background-position:center ;
+}
+
+#combat
+{
+    height: 30px;
+    width: 100px;
+    background: url("../assets/pictures/battle.png") no-repeat;
+    background-color: red;
+    background-size: contain;
+    background-position: center;
+}
+
+.Egality
+{
+    font-size: 1.5rem;
+}
+.win{
+    font-size: 2rem;
+    color:blue;
+}
+.lose{
+    font-size: 2rem;
+    color:red;
+}
